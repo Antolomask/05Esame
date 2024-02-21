@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CODE - HOME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/96b6850337.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="color-bg">
+    <header class="color-bg">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg color-bg mx-2 fixed-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="Materiale/Logo_codex.png" alt="Logo_codex" width="100">
+                </a>
+                <!-- Button Collapse -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- Pagina Iniziale -->
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Pagina Iniziale</a>
+                        </li>
+                        <!-- Tipologia - Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Tipologia
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Cerca -->
+                    <form class="d-flex input-group-sm" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-sm" type="submit"><i
+                                class="fa-solid fa-magnifying-glass color-primary"></i></button>
+                    </form>
+                    <!-- Utente / Admin - Dropdown -->
+                    <ul class="navbar-nav d-flex">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                title="Vai al Profilo">Profilo / Admin</a>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
+                                <li><a href="#" class="dropdown-item" title="Vai ai Dati personali">Dati Personali</a>
+                                </li>
+                                <li><a href="#" class="dropdown-item" title="Vai alla Modifica Password">Modifica
+                                        Password</a></li>
+                                <li class="dropdown-divider"></li>
+                                <li><a href="#" class="dropdown-item" title="Vai ai Crediti">Crediti</a></li>
+                                <li class="dropdown-divider"></li>
+                                <li><a href="#" class="dropdown-item" title="Vai al Pannello di Controllo">Pannello di
+                                        Controllo</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="mt-3 mx-4">
+        <!-- inizio carousel -->
+        <div id="carousel_1" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel_1" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel_1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel_1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Materiale/PeakyBlinder.jpg" class="d-block w-100" alt="immagine_1">
+                </div>
+                <div class="carousel-item">
+                    <img src="Materiale/Spiderman.jpg" class="d-block w-100" alt="immagine_1">
+                </div>
+                <div class="carousel-item">
+                    <img src="Materiale/TheWitcher.jpg" class="d-block w-100" alt="immagine_1">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Prima</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel_1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Dopo</span>
+            </button>
+        </div>
+        <!-- fine carousel -->
+    </section>
+
+    <main>
+        <!-- Film -->
+        <div class="row p-0 m-0 g-lg-5 g-3">
+            <p class="text-light"><b class="color-primary">Film </b>/ Novità</p>
+            <div class="col-12 col-sm-6 col-lg-3 mt-0">
+                <div class="card border-0 border-0">
+                    <img src="Materiale/L_esorcista_del_papa.jpg" class="border-0" alt="Immagine"
+                        title="L'esorcista del Papa">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mt-0">
+                <div class="card border-0">
+                    <img src="Materiale/TheConjouring.jpg" class="border-0" alt="Immagine" title="The Conjouring">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mt-0">
+                <div class="card border-0">
+                    <img src="Materiale/Nun.jpg" class="border-0" alt="Immagine" title="The Nun">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mt-0">
+                <div class="card border-0">
+                    <img src="Materiale/Sinister.jpg" class="border-0" alt="Immagine" title="Sinister">
+                </div>
+            </div>
+        </div>
+        <main>
+            <div class="row p-0 m-0 g-lg-5 g-3">
+                <p class="text-light"><b class="color-primary">Serie Tv </b>/ Novità</p>
+                <div class="col-12 col-sm-6 col-lg-3 mt-0">
+                    <div class="card border-0">
+                        <img src="Materiale/The100.jpg" class="border-0" alt="Immagine" title="The100">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-0">
+                    <div class="card border-0">
+                        <img src="Materiale/TheRain.jpg" class="border-0" alt="Immagine" title="The Rain">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-0">
+                    <div class="card border-0">
+                        <img src="Materiale/Fondazione.jpg" class="border-0" alt="Immagine" title="Fondazione">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-0">
+                    <div class="card border-0">
+                        <img src="Materiale/Invasion.jpg" class="border-0" alt="Immagine" title="Invasion">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </main>
+
+    <!-- Footer -->
+    <div class="container-fluid bg-dark" data-bs-theme="dark">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-bottom pb-3 mb-3">
+            <div class="col mb-3"></div>
+            <div class="col mb-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">F.A.Q.</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Informativa sui Cookies</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Crediti</a></li>
+                </ul>
+            </div>
+            <div class="col mb-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">F.A.Q.</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Link1</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Link2</a></li>
+                </ul>
+            </div>
+            <div class="col mb-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">F.A.Q.</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Link1</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Link2</a></li>
+                </ul>
+            </div>
+            <div class="col mb-3"></div>
+        </footer>
+        <div class="text-center text-muted pb-3">Copyright &copy 2023 - <b class="color-primary">CO</b>de</div>
+    </div>
+</body>
+
+</html>

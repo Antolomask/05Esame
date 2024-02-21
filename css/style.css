@@ -1,0 +1,63 @@
+/* SCROLL BAR: */
+/* Larghezza */
+::-webkit-scrollbar{
+    width: 10px;
+}
+/* Sfondo Scroll-Bar */
+::-webkit-scrollbar-track{
+    background: #181818;
+}
+
+/* Cursore Scroll-Bar */
+::-webkit-scrollbar-thumb{
+    background: #026874;
+    border-radius: 3px;
+}
+
+/* Cursore hover Scroll-Bar */
+::-webkit-scrollbar-thumb:hover{
+    background: #003136;
+}
+
+.background-image {
+    background-image: url('/Materiale/netflix.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.style-primary {
+    background: #026874;
+    &:hover{
+        background-color: #003136;
+        color: grey;
+    }
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+button[type="button"]  {
+    border-color: #026874 !important;
+}
+
+.color-primary, .color-list{
+    color: #026874;
+}
+
+.color-bg {
+    background-color: #181818;
+}
+
+.table-bg{
+    background-color: #181818 !important;
+}
+
+.input-color {
+    color: rgb(189, 45, 45) !important;
+}
+
+
+body {
+    padding-top: 80px;
+    /* Altezza della navbar + margine desiderato */
+}
